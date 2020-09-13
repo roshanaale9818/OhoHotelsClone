@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OhoHotels</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- site-wrapper starts here  -->
+    <div class="site-wrapper">
+        <!-- header section starts here  -->
+        <section class="header-section section-all">
+            <div class="container">
+                <header class="site-header">
+                    <div class="logo-wrap">
+                        <a href="#" class="logo"><img src="images/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="header-right">
+                        <ul class="login-options">
+                            <li class="login-wrap">
+                                <a href="login.html" class="login-btn"><i class="fas fa-sign-in-alt icon"></i>Sign in</a>
+                            </li>
+                            <li class="register-wrap">
+                                <a href="#" class="register-btn"><i class="fas fa-user icon"></i>Register</a>
+                            </li>
+                        </ul>
+                    </div>
+                </header>
+            </div>
+            <div class="site-navigation">
+                <div class="container">
+                    <button id="navToggler" class="nav-Toggler">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        </button>
+                    <nav class="custom-nav">
+                        <div class="navbar-collapse navbar-expand">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link active">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="login.html" class="nav-link">Login</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link">Hotels</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+
+        </section>
+        <!-- header-section ends here  -->
+
+        <!-- site-banner section starts here  -->
+        <section class="site-banner">
+            <div class="banner-content">
+                <div class="search-wrap">
+                    <div class="search-heading">
+                        <h1><i class="fas fa-hotel icon-hotel"></i>Search Hotel</h1>
+                    </div>
+                    <div class="container mt-4">
+                        <div class="search-form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col-12 col-md-8">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" name="hotel" placeholder="Keyword Hotel,City,Area">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-group">
+                                            <select class="form-control select" id="sel1">
+                                                <option>Select Star</option>
+                                                <option>Tourist Enabled</option>
+                                                <option>1 Star</option>
+                                                <option>2 Star</option>
+                                                <option>3 Star</option>
+                                                <option>4 Star</option>
+                                                <option>5 star</option>
+                                              </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" name="checkindate" placeholder="Check in Date">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4">
+                                        <div class="form-group">
+                                            <input type="date" class="form-control" name="checkoutdate" placeholder="Check Out Date">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form button-wrap">
+                                    <button type="submit">SEARCH NOW</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- site-banner section ends here  -->
+
+
+        <!-- recommendation-section starts here  -->
+        <section class="recommendation-section mt-4">
+            <div class="recommend-wrap">
+                <div class="container">
+                    <div class="site-heading recommend">
+                        <h1><span>Recommended Destinations</span></h1>
+                    </div>
+                    <div class="recommend-carousel owl-carousel owl-theme">
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/pokhara.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Pokhara</h1>
+                                            <span>2 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/kathmandu.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Kathmandu</h1>
+                                            <span>14 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/lumbini.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Lumbini</h1>
+                                            <span>2 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/jhapa.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Jhapa</h1>
+                                            <span>3 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/palpa.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Palpa</h1>
+                                            <span>2 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/dhulikhel.png" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Dhulikhel</h1>
+                                            <span>2 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="destination-wrap">
+                                <a href="hotellists.html">
+                                    <img src="images/chitwan.jpg" alt="">
+                                    <div class="place-text">
+                                        <div class="title">
+                                            <h1>Chitwan</h1>
+                                            <span>2 Hotels</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recommendation-section ends here -->
+
+
+        <!-- featured section starts here  -->
+        <section class="featured-section">
+            <div class="featured-wrap mt-4">
+                <div class="container">
+                    <div class="site-heading featured">
+                        <h1>Featured</h1>
+                    </div>
+                    <div class="filter-nav">
+                        <ul class="filter-list">
+                            <li><a href="#" class="filter-button active"><i class="fas fa-table star"></i> All</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> Tourist Enabled</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> 1 Star</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> 2 Stars</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> 3 Stars</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> 4 Stars</a></li>
+                            <li><a href="#" class="filter-button"><i class="fas fa-star  star"></i> 5 Stars</a></li>
+                        </ul>
+                    </div>
+                    <div class="filter-content">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12 filter-btn-wrap">
+                                    <div class="subheading">
+                                        <span>Featured Hotels in Nepal</span>
+                                    </div>
+                                    <div class="filter-grid-button">
+                                        <ul>
+                                            <li><i class="fas fa-table table mr-2"></i></li>
+                                            <li><i class="fas fa-bars bars"></i></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- <div class="project-single-block">
+									<div class="project-image-block"> -->
+                <!-- img here -->
+                <!-- <div class="project-details"> 
+                    black cover -->
+                <!-- <a href="#"><i class="fa fa-plus"></i></a>
+										</div>
+									</div>
+								</div> -->
+                <div class="featured-content">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap margin-top-sm-20">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/achham.jpg" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Budhiganga Resort & Lounge
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Achham Nepal</small>
+                                            </span>
+                                            <div class="feedback">
+                                                <span>Toursit Enabled</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap margin-top-sm-20">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/alliancekathmandu.png" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Alliance hotel pvt Ltd
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Achham Nepal</small>
+                                            </span>
+                                            <div class="feedback mt-3">
+                                                <span><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i> 4 stars</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap bottom margin-top-sm-20">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/achham.jpg" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Hotel Panchali pvt Ltd
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Achham Nepal</small>
+                                            </span>
+                                            <div class="feedback">
+                                                <span><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i> 4 stars</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap bottom margin-top-sm-20">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/alliancekathmandu.png" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Alliance hotel pvt Ltd
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Achham Nepal</small>
+                                            </span>
+                                            <div class="feedback">
+                                                <span><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i> 4 stars</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap bottom">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/dreamlandgoldlumbini.jpg" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Kathmandu Guest House
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Lumbini Nepal</small>
+                                            </span>
+                                            <div class="feedback">
+                                                <span><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i> 4 stars</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-12 col-lg-6">
+                                <div class="featured-content-wrap bottom margin-top-sm-20">
+                                    <div class="img-wrap">
+                                        <img src="images/hotels/hotelbiratnagar.jpg" alt="img">
+                                        <div class="hotel-details">
+                                            <a href="hotel.html" style="font-size: 18px;"><i class="fas fa-plus"></i></a>
+                                        </div>
+                                        <div class="caption">
+                                            <span>Hotel</span>
+                                        </div>
+                                    </div>
+                                    <div class="img-description">
+                                        <div class="hotel-description">
+                                            <span class="price">
+                                                <small class="d-block range">Onwards</small>
+                                                Rs 600
+                                            </span>
+                                            <span class="box-title">Hotel Moonlight Pvt. Ltd
+                                                <small class="d-block location"><i class="fas fa-map-marker-alt mr-2"></i>Biratnagar Nepal</small>
+                                            </span>
+                                            <div class="feedback">
+                                                <span><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i><i class="fas fa-star" style="color:gold"></i> 4 stars</span>
+                                            </div>
+                                            <hr class="seperator">
+                                            <div class="action text-right">
+                                                <a href="hotel.html">View Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="site-button text-center bottom mt-4 mb-4">
+                            <a href="hotel.html" class="loadmore">Load More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- featured-section ends here  -->
+
+        <!-- footer-section starts here  -->
+        <section class="footer-section">
+            <footer class="site-footer-wrap">
+                <div class="site-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-12 col-md-3">
+                                <div class="subheading footer">
+                                    <h1>Info</h1>
+                                </div>
+                                <div class="info-content">
+                                    <ul>
+                                        <li><a href="#">About us</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-3">
+                                <div class="address-wrap">
+                                    <ul>
+                                        <li><i class="fas fa-map-marker-alt mr-3"></i> Kathmandu, Nepal</li>
+                                        <li><i class="fas fa-phone-square-alt mr-3"></i> 9812345678</li>
+                                        <li><i class="fas fa-envelope-square mr-3"></i>info@ohohotels.com</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-6 footer-place">
+                                <div class="subheading footer">
+                                    <h1>Top Cities</h1>
+                                </div>
+                                <ul class="place footer" style="padding: 0px 15px;">
+                                    <li><a href="#">Achham</a></li>
+                                    <li><a href="#">Bardibas</a></li>
+                                    <li><a href="#">Bhaktapur</a></li>
+                                    <li><a href="#">Biratnagar</a></li>
+                                    <li><a href="#">Chitwan</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <div class="text">Copyright © 2020 - ohohotels.com - All rights reserved.</div>
+                    </div>
+                </div>
+            </footer>
+        </section>
+        <!-- footer-section ends here  -->
+    </div>
+    <!-- site-wrapper ends here  -->
+    <script src="js/jquery.3.5.1.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
